@@ -1,0 +1,49 @@
+Partlist
+
+Exported from RAMPSdisplay.brd at 28/05/12 3:36 AM
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package                                Library               Position (mil)        Orientation
+
+C1       100n           C0805K                                 rcl                   (3675 2025)           R270
+C2       10uF           C0805K                                 rcl                   (3575 2025)           R270
+C3       100n           C0805K                                 rcl                   (4300 2375)           R0
+C4       100n           C0805K                                 rcl                   (4300 1862.5)         R0
+C5       100 nF         C0805K                                 rcl                   (2950 1975)           R180
+C6       100 nF         C0805K                                 rcl                   (2937.5 1700)         R180
+D1       LL4148         SOD80C                                 diode                 (4350 1437.5)         R90
+IC1      HEF4050B       SO16                                   40xx                  (3175 2225)           R0
+IC2      LD1117         SOT223                                 burr-brown            (3575 2300)           R0
+IC3      MAX31855K      MCLENG_SOIC-8                          RAMPSdisplay          (4225 2550)           R180
+IC4      MAX31855K      MCLENG_SOIC-8                          RAMPSdisplay          (4225 2125)           R180
+IC5      TL331          DBV-R-PDSO-G5                          linear                (3125 1625)           R270
+IC6      MAX31855K      MCLENG_SOIC-8                          RAMPSdisplay          (4225 1700)           R180
+J1                      CON20                                  con-harting           (5300 725)            R270
+J2       PCC-SMP-V-K    MCLAUGHLINENG_TC_JACK                  RAMPSdisplay          (5275 2525)           R90
+J3       PCC-SMP-V-K    MCLAUGHLINENG_TC_JACK                  RAMPSdisplay          (5275 2100)           R90
+J4       MicroSD Card   ADAFRUIT_MICROSD                       RAMPSdisplay          (2875 2050)           R180
+J5       PCC-SMP-V-K    MCLAUGHLINENG_TC_JACK                  RAMPSdisplay          (5275 1675)           R90
+LCD1     HD44780 20x4   HDM20416L                              abi-lcd               (1975 1325)           R0
+LED1     Power          CHIPLED_0805                           led                   (2187.5 2587.5)       R270
+LED2     SD act         CHIPLED_0805                           led                   (3025 2575)           R90
+Q1       2N7002         SOT23-3                                freetronics-master-v1 (2175 2287.5)         R0
+Q2       Piezo          FREETRONICS-MASTER-V1_BUZZER-12X12-SMT RAMPSdisplay          (3575 1625)           R180
+R1       10k            M0805                                  rcl                   (4950 750)            R0
+R2       10k            M0805                                  rcl                   (4950 625)            R0
+R3       10k            M0805                                  rcl                   (4950 875)            R0
+R4       22 R           M0805                                  rcl                   (2137.5 2425)         R180
+R5       10k            M0805                                  rcl                   (2000 2250)           R180
+R6       1k             M0805                                  rcl                   (2012.5 2587.5)       R180
+R7       10 k           M0805                                  rcl                   (3200 2575)           R0
+R8       10k            M0805                                  rcl                   (2937.5 1425)         R180
+R9       10 k           M0805                                  rcl                   (4975 1287.5)         R270
+R10      10k            M0805                                  rcl                   (3425 2000)           R0
+R11      10k            M0805                                  rcl                   (3125 1475)           R0
+R12      3.3k           M0805                                  rcl                   (3125 1775)           R0
+R13      10k            M0805                                  rcl                   (2937.5 1550)         R180
+R14      10 k           M0805                                  rcl                   (4150 1900)           R90
+SW1      CI-11          CI-11                                  piher                 (4575 900)            R0
+VR1      10 k           CT6                                    pot                   (250 2150)            R90
