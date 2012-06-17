@@ -15072,7 +15072,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$" library="SparkFun" deviceset="OSHW-LOGO" device="S"/>
-<part name="J4" library="con-harting" deviceset="CON20" device="" value="Interface"/>
+<part name="J4" library="con-harting" deviceset="CON20" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="IC1" library="burr-brown" deviceset="REG1117" device="" value="LD1117"/>
@@ -15226,8 +15226,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 <instance part="U$" gate="G$1" x="139.7" y="25.4" smashed="yes"/>
 <instance part="J4" gate="A" x="322.58" y="71.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="318.77" y="88.9" size="1.27" layer="95"/>
-<attribute name="VALUE" x="318.77" y="87.122" size="1.27" layer="96"/>
+<attribute name="NAME" x="318.77" y="86.868" size="1.27" layer="95"/>
+<attribute name="VALUE" x="326.39" y="88.9" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND8" gate="1" x="332.74" y="55.88" smashed="yes">
 <attribute name="VALUE" x="331.216" y="53.848" size="1.27" layer="96"/>
@@ -15730,6 +15730,23 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="299.72" y="68.834" size="1.27" layer="95"/>
 </segment>
 </net>
+<net name="!TC2_CS" class="0">
+<segment>
+<wire x1="99.06" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="96.52" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
+<junction x="104.14" y="76.2"/>
+<label x="111.76" y="68.834" size="1.27" layer="95"/>
+<pinref part="IC2" gate="F" pin="I"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="330.2" y1="71.12" x2="350.52" y2="71.12" width="0.1524" layer="91"/>
+<label x="340.36" y="71.374" size="1.27" layer="95"/>
+<pinref part="J4" gate="A" pin="12"/>
+</segment>
+</net>
 <net name="!TC1_CS" class="0">
 <segment>
 <wire x1="121.92" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
@@ -16111,34 +16128,19 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="304.8" y="193.294" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="!TC2_CS" class="0">
-<segment>
-<wire x1="99.06" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="68.58" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="96.52" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<junction x="104.14" y="76.2"/>
-<label x="111.76" y="68.834" size="1.27" layer="95"/>
-<pinref part="IC2" gate="F" pin="I"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="330.2" y1="71.12" x2="350.52" y2="71.12" width="0.1524" layer="91"/>
-<label x="340.36" y="71.374" size="1.27" layer="95"/>
-<pinref part="J4" gate="A" pin="12"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,200.66,55.88,IC2P,VSS,GND,,,"/>
-<approved hash="104,1,200.66,71.12,IC2P,VDD,+3V3,,,"/>
+<approved hash="104,1,200.66,55.88,IC1P,VSS,GND,,,"/>
+<approved hash="104,1,200.66,71.12,IC1P,VDD,+3V3,,,"/>
+<approved hash="104,1,317.5,83.82,IC5,V+,BUZZER,,,"/>
 <approved hash="208,1,45.72,137.16,+3V3,sup,,,,"/>
-<approved hash="208,1,353.06,147.32,+3V3,out,,,,"/>
-<approved hash="208,1,358.14,147.32,+3V3,sup,,,,"/>
+<approved hash="208,1,332.74,142.24,+3V3,out,,,,"/>
+<approved hash="208,1,337.82,142.24,+3V3,sup,,,,"/>
 <approved hash="208,1,91.44,55.88,+3V3,sup,,,,"/>
 <approved hash="208,1,203.2,73.66,+3V3,sup,,,,"/>
+<approved hash="115,1,325.12,192.769,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

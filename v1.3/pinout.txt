@@ -1,0 +1,26 @@
+
+Display board: (20-way ribbon cable with dual-row IDC header plug.)
+
+1: RS (Pin 18 on 18-pin RAMPS expansion header, Arduino pin 16)
+2: EN (Pin 17 on 18-pin RAMPS expansion header, Arduino pin 17)
+3: D4 (Pin 16 on 18-pin RAMPS expansion header, Arduino pin 23)
+4: D5 (Pin 15 on 18-pin RAMPS expansion header, Arduino pin 25)
+5: D6 (Pin 14 on 18-pin RAMPS expansion header, Arduino pin 27)
+6: D7 (Pin 13 on 18-pin RAMPS expansion header, Arduino pin 29)
+7: Sw (Pin 12 on 18-pin RAMPS expansion header, Arduino pin 31)
+8: Buzzer (Pin 11 on 18-pin RAMPS expansion header, Arduino pin 33)
+9: Encoder A (Pin 10 on 18-pin RAMPS expansion header, Arduino pin 35)
+10: Encoder B (Pin 9 on 18-pin RAMPS expansion header, Arduino pin 37)
+11: Backlight (Pin 8 on 18-pin RAMPS expansion header, Arduino pin 38)
+12: TC2 (Pin 7 on 18-pin RAMPS expansion header, Arduino pin 41)
+13: TC3 (Pin 6 on 18-pin RAMPS expansion header, Arduino pin 43)
+
+14: +5V (Pin 1 on RAMPS 8-pin SPI header, 8x2 IDC header plug)
+15: SD CS (Pin 2 on RAMPS SPI header, Arduino pin 49)
+16: MISO (Pin 3 on RAMPS SPI header, Arduino pin 50)
+17: MOSI (Pin 4 on RAMPS SPI header, Arduino pin 51)
+18: SCK (Pin 5 on RAMPS SPI header, Arduino pin 52)
+19: TC1 CS (Pin 6 on RAMPS SPI header, Arduino pin 53)
+20: Gnd (Pin 7 on RAMPS SPI header)
+(Note: Pin 8 on 8-pin IDC header plug is not connected.)
+

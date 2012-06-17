@@ -193,8 +193,6 @@
 <text x="130.175" y="31.75" size="0.9652" layer="21" ratio="15">1</text>
 <text x="8.255" y="5.715" size="0.889" layer="21" ratio="15">http://github.com/lukeweston/RAMPSdisplay</text>
 <text x="8.255" y="3.81" size="0.889" layer="21" ratio="15">Open Hardware released under the CERN Open Hardware License: http://ohwr.org/cernohl</text>
-<dimension x1="0" y1="5.08" x2="141.605" y2="5.08" x3="70.8025" y3="-8.89" layer="51"/>
-<dimension x1="136.525" y1="0" x2="136.525" y2="69.85" x3="153.035" y3="34.925" layer="51"/>
 </plain>
 <libraries>
 <library name="abi-lcd">
